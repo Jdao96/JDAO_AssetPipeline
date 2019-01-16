@@ -775,3 +775,89 @@ LogInit: Object subsystem initialized
 [2019.01.16-21.07.06:272][771]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
 [2019.01.16-21.07.06:272][771]Can't find target actor or component.
 [2019.01.16-21.07.07:298][884]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.16-21.08.53:668][124]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.16-21.09.13:314][539]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.16-21.21.41:426][499]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-21.21.46:927][508]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/u0870886/Downloads/mann.obj)
+[2019.01.16-21.21.46:939][508]LogFbx: Loading FBX Scene from ../../../../../../Users/u0870886/Downloads/mann.obj
+[2019.01.16-21.21.47:013][508]LogFbx: FBX Scene Loaded Succesfully
+[2019.01.16-21.22.00:957][508]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.01.16-21.22.01:149][508]LogMaterial: Display: Missing cached shader map for material SM_hatMat, compiling. 
+[2019.01.16-21.22.01:193][508]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.01.16-21.22.01:193][508]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.01.16-21.22.01:193][508]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.01.16-21.22.01:193][508]LogFbx: Warning: Triangulating static mesh SM_hat
+[2019.01.16-21.22.01:640][508]LogStaticMesh: Building static mesh mann...
+[2019.01.16-21.22.01:777][508]LogStaticMesh: Built static mesh [0.14s] /Game/mann.mann
+[2019.01.16-21.22.05:859][955]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.16-21.22.11:159][524]Cmd: TRANSACTION UNDO
+[2019.01.16-21.22.11:159][524]LogEditorTransaction: Undo Move Actors
+[2019.01.16-21.22.11:426][524]LogActorComponent: ~FComponentReregisterContext: (/Game/JD_WBMyCityBlock.JD_WBMyCityBlock:PersistentLevel.Brush_Street_26.BrushComponent0) Component already registered.
+[2019.01.16-21.22.11:426][524]LogActorComponent: ~FComponentReregisterContext: (/Game/JD_WBMyCityBlock.JD_WBMyCityBlock:PersistentLevel.Brush_Street_31.BrushComponent0) Component already registered.
+[2019.01.16-21.22.11:428][524]LogActorComponent: ~FComponentReregisterContext: (/Game/JD_WBMyCityBlock.JD_WBMyCityBlock:PersistentLevel.Brush_Street_19.BrushComponent0) Component already registered.
+[2019.01.16-21.22.11:429][524]LogActorComponent: ~FComponentReregisterContext: (/Game/JD_WBMyCityBlock.JD_WBMyCityBlock:PersistentLevel.Brush_Street_37.BrushComponent0) Component already registered.
+[2019.01.16-21.22.11:454][524]LogActorComponent: ~FComponentReregisterContext: (/Game/JD_WBMyCityBlock.JD_WBMyCityBlock:PersistentLevel.Brush_Grass_186.BrushComponent0) Component already registered.
+[2019.01.16-21.22.11:455][524]LogActorComponent: ~FComponentReregisterContext: (/Game/JD_WBMyCityBlock.JD_WBMyCityBlock:PersistentLevel.Brush_Grass_174.BrushComponent0) Component already registered.
+[2019.01.16-21.22.11:456][524]LogActorComponent: ~FComponentReregisterContext: (/Game/JD_WBMyCityBlock.JD_WBMyCityBlock:PersistentLevel.Brush_Grass_192.BrushComponent0) Component already registered.
+[2019.01.16-21.22.11:456][524]LogActorComponent: ~FComponentReregisterContext: (/Game/JD_WBMyCityBlock.JD_WBMyCityBlock:PersistentLevel.Brush_Grass_210.BrushComponent0) Component already registered.
+[2019.01.16-21.22.11:457][524]LogActorComponent: ~FComponentReregisterContext: (/Game/JD_WBMyCityBlock.JD_WBMyCityBlock:PersistentLevel.Brush_Grass_198.BrushComponent0) Component already registered.
+[2019.01.16-21.22.11:457][524]LogActorComponent: ~FComponentReregisterContext: (/Game/JD_WBMyCityBlock.JD_WBMyCityBlock:PersistentLevel.Brush_Grass_216.BrushComponent0) Component already registered.
+[2019.01.16-21.22.11:463][524]LogActorComponent: ~FComponentReregisterContext: (/Game/JD_WBMyCityBlock.JD_WBMyCityBlock:PersistentLevel.Brush_Grass_234.BrushComponent0) Component already registered.
+[2019.01.16-21.22.11:463][524]LogActorComponent: ~FComponentReregisterContext: (/Game/JD_WBMyCityBlock.JD_WBMyCityBlock:PersistentLevel.Brush_Grass_222.BrushComponent0) Component already registered.
+[2019.01.16-21.22.11:464][524]LogActorComponent: ~FComponentReregisterContext: (/Game/JD_WBMyCityBlock.JD_WBMyCityBlock:PersistentLevel.Brush_Grass_240.BrushComponent0) Component already registered.
+[2019.01.16-21.22.11:464][524]LogActorComponent: ~FComponentReregisterContext: (/Game/JD_WBMyCityBlock.JD_WBMyCityBlock:PersistentLevel.Brush_Grass_258.BrushComponent0) Component already registered.
+[2019.01.16-21.22.11:465][524]LogActorComponent: ~FComponentReregisterContext: (/Game/JD_WBMyCityBlock.JD_WBMyCityBlock:PersistentLevel.Brush_Grass_246.BrushComponent0) Component already registered.
+[2019.01.16-21.22.11:465][524]LogActorComponent: ~FComponentReregisterContext: (/Game/JD_WBMyCityBlock.JD_WBMyCityBlock:PersistentLevel.Brush_Grass_264.BrushComponent0) Component already registered.
+[2019.01.16-21.22.12:736][602]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-21.22.20:298][389]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-21.22.27:220][219]Cmd: TRANSACTION UNDO
+[2019.01.16-21.22.27:220][219]LogEditorTransaction: Undo Move Actors
+[2019.01.16-21.22.27:496][219]LogActorComponent: ~FComponentReregisterContext: (/Game/JD_WBMyCityBlock.JD_WBMyCityBlock:PersistentLevel.Brush_Street_26.BrushComponent0) Component already registered.
+[2019.01.16-21.22.27:496][219]LogActorComponent: ~FComponentReregisterContext: (/Game/JD_WBMyCityBlock.JD_WBMyCityBlock:PersistentLevel.Brush_Street_31.BrushComponent0) Component already registered.
+[2019.01.16-21.22.27:498][219]LogActorComponent: ~FComponentReregisterContext: (/Game/JD_WBMyCityBlock.JD_WBMyCityBlock:PersistentLevel.Brush_Street_19.BrushComponent0) Component already registered.
+[2019.01.16-21.22.27:499][219]LogActorComponent: ~FComponentReregisterContext: (/Game/JD_WBMyCityBlock.JD_WBMyCityBlock:PersistentLevel.Brush_Street_37.BrushComponent0) Component already registered.
+[2019.01.16-21.22.27:519][219]LogActorComponent: ~FComponentReregisterContext: (/Game/JD_WBMyCityBlock.JD_WBMyCityBlock:PersistentLevel.Brush_Grass_186.BrushComponent0) Component already registered.
+[2019.01.16-21.22.27:520][219]LogActorComponent: ~FComponentReregisterContext: (/Game/JD_WBMyCityBlock.JD_WBMyCityBlock:PersistentLevel.Brush_Grass_174.BrushComponent0) Component already registered.
+[2019.01.16-21.22.27:520][219]LogActorComponent: ~FComponentReregisterContext: (/Game/JD_WBMyCityBlock.JD_WBMyCityBlock:PersistentLevel.Brush_Grass_192.BrushComponent0) Component already registered.
+[2019.01.16-21.22.27:521][219]LogActorComponent: ~FComponentReregisterContext: (/Game/JD_WBMyCityBlock.JD_WBMyCityBlock:PersistentLevel.Brush_Grass_210.BrushComponent0) Component already registered.
+[2019.01.16-21.22.27:521][219]LogActorComponent: ~FComponentReregisterContext: (/Game/JD_WBMyCityBlock.JD_WBMyCityBlock:PersistentLevel.Brush_Grass_198.BrushComponent0) Component already registered.
+[2019.01.16-21.22.27:522][219]LogActorComponent: ~FComponentReregisterContext: (/Game/JD_WBMyCityBlock.JD_WBMyCityBlock:PersistentLevel.Brush_Grass_216.BrushComponent0) Component already registered.
+[2019.01.16-21.22.27:528][219]LogActorComponent: ~FComponentReregisterContext: (/Game/JD_WBMyCityBlock.JD_WBMyCityBlock:PersistentLevel.Brush_Grass_234.BrushComponent0) Component already registered.
+[2019.01.16-21.22.27:528][219]LogActorComponent: ~FComponentReregisterContext: (/Game/JD_WBMyCityBlock.JD_WBMyCityBlock:PersistentLevel.Brush_Grass_222.BrushComponent0) Component already registered.
+[2019.01.16-21.22.27:528][219]LogActorComponent: ~FComponentReregisterContext: (/Game/JD_WBMyCityBlock.JD_WBMyCityBlock:PersistentLevel.Brush_Grass_240.BrushComponent0) Component already registered.
+[2019.01.16-21.22.27:528][219]LogActorComponent: ~FComponentReregisterContext: (/Game/JD_WBMyCityBlock.JD_WBMyCityBlock:PersistentLevel.Brush_Grass_258.BrushComponent0) Component already registered.
+[2019.01.16-21.22.27:529][219]LogActorComponent: ~FComponentReregisterContext: (/Game/JD_WBMyCityBlock.JD_WBMyCityBlock:PersistentLevel.Brush_Grass_246.BrushComponent0) Component already registered.
+[2019.01.16-21.22.27:529][219]LogActorComponent: ~FComponentReregisterContext: (/Game/JD_WBMyCityBlock.JD_WBMyCityBlock:PersistentLevel.Brush_Grass_264.BrushComponent0) Component already registered.
+[2019.01.16-21.22.30:276][419]LogActorFactory: Actor Factory created mann
+[2019.01.16-21.22.31:183][525]LogActorFactory: Actor Factory created mann
+[2019.01.16-21.22.55:413][358]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.16-21.23.14:369][589]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.16-21.23.25:336][886]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.16-21.24.50:218][976]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.16-21.25.17:399][859]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.16-21.25.18:916][ 38]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (mann)
+[2019.01.16-21.25.19:296][ 76]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.01.16-21.25.29:898][343]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.16-21.26.06:807][685]LogSavePackage: Moving '../../../../../../Users/u0870886/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/JD_WBMyCityBlock_Auto70F739A034D9D40BACBF70AA333C29CA7.tmp' to '../../../../../../Users/u0870886/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Autosaves/Game/JD_WBMyCityBlock_Auto7.umap'
+[2019.01.16-21.26.06:819][685]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/JD_WBMyCityBlock' took 1.423
+[2019.01.16-21.26.06:819][685]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.423
+[2019.01.16-21.26.06:822][685]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/mann] ([1] browsable assets)...
+[2019.01.16-21.26.06:843][685]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/mann.mann]
+[2019.01.16-21.26.06:843][685]OBJ SavePackage: Finished generating thumbnails for package [/Game/mann]
+[2019.01.16-21.26.06:843][685]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mann" FILE="../../../../../../Users/u0870886/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Autosaves/Game/mann_Auto7.uasset" SILENT=false AUTOSAVING=true
+[2019.01.16-21.26.06:858][685]LogSavePackage: Moving '../../../../../../Users/u0870886/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/mann_Auto724AE37534FEC790CDA87E4809E5A179C.tmp' to '../../../../../../Users/u0870886/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Autosaves/Game/mann_Auto7.uasset'
+[2019.01.16-21.26.06:859][685]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SM_hatMat] ([1] browsable assets)...
+[2019.01.16-21.26.06:875][685]OBJ SavePackage:     Rendered thumbnail for [Material /Game/SM_hatMat.SM_hatMat]
+[2019.01.16-21.26.06:875][685]OBJ SavePackage: Finished generating thumbnails for package [/Game/SM_hatMat]
+[2019.01.16-21.26.06:897][685]LogSavePackage: Moving '../../../../../../Users/u0870886/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/SM_hatMat_Auto7B2678A3249382205C4FE6CB02FD6DE04.tmp' to '../../../../../../Users/u0870886/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Autosaves/Game/SM_hatMat_Auto7.uasset'
+[2019.01.16-21.26.06:898][685]LogFileHelpers: Auto-saving content packages took 0.077
+[2019.01.16-21.40.56:662][135]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.16-21.40.57:809][142]LogSlate: Window 'Save Content' being destroyed
+[2019.01.16-21.40.57:821][142]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.16-21.40.58:914][142]LogSavePackage: Moving '../../../../../../Users/u0870886/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/JD_WBMyCityBlock95A3DD184D69B3F8216C6D96A672A85A.tmp' to '../../../../../../Users/u0870886/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/JD_WBMyCityBlock.umap'
+[2019.01.16-21.40.58:948][142]LogFileHelpers: Saving map 'JD_WBMyCityBlock' took 1.121
+[2019.01.16-21.40.58:959][142]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/mann" FILE="../../../../../../Users/u0870886/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/mann.uasset" SILENT=true
+[2019.01.16-21.40.58:970][142]LogSavePackage: Moving '../../../../../../Users/u0870886/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/mann84DAA2E9433FAE272F14CBA929BC687B.tmp' to '../../../../../../Users/u0870886/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/mann.uasset'
+[2019.01.16-21.40.58:977][142]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SM_hatMat" FILE="../../../../../../Users/u0870886/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/SM_hatMat.uasset" SILENT=true
+[2019.01.16-21.40.58:986][142]LogSavePackage: Moving '../../../../../../Users/u0870886/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/SM_hatMat6C4C56F941E5336193FAEE9823AAA0C0.tmp' to '../../../../../../Users/u0870886/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/SM_hatMat.uasset'
+[2019.01.16-21.41.00:946][361]LogSlate: FSceneViewport::OnFocusLost() reason 0
