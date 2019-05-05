@@ -1,0 +1,846 @@
+﻿Log file open, 04/15/19 08:03:14
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: JD_WB_InClass_Sec2
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.389093
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -7:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.066s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-8700K CPU @ 3.70GHz, GPU: NVIDIA GeForce RTX 2070
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: D:/Program Files (x86)/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.04.15-14.03.14:826][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.15-14.03.14:826][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.04.15-14.03.14:836][  0]LogHAL: Display: Platform has ~ 32 GB [34291671040 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.04.15-14.03.14:836][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.04.15-14.03.14:836][  0]LogInit: Going up to parent DeviceProfile []
+[2019.04.15-14.03.14:836][  0]LogInit: Computer: JONATHAN-DESKTO
+[2019.04.15-14.03.14:836][  0]LogInit: User: Jonathan
+[2019.04.15-14.03.14:836][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.04.15-14.03.14:836][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.04.15-14.03.14:836][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2019.04.15-14.03.14:836][  0]LogMemory: Platform Memory Stats for Windows
+[2019.04.15-14.03.14:836][  0]LogMemory: Process Physical Memory: 101.62 MB used, 101.62 MB peak
+[2019.04.15-14.03.14:836][  0]LogMemory: Process Virtual Memory: 85.80 MB used, 85.80 MB peak
+[2019.04.15-14.03.14:836][  0]LogMemory: Physical Memory: 9506.18 MB used,  23196.91 MB free, 32703.09 MB total
+[2019.04.15-14.03.14:836][  0]LogMemory: Virtual Memory: 4654.91 MB used,  23196.91 MB free, 134217728.00 MB total
+[2019.04.15-14.03.14:850][  0]LogInit: Using OS detected language (en-US).
+[2019.04.15-14.03.14:850][  0]LogInit: Using OS detected locale (en-US).
+[2019.04.15-14.03.14:851][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.04.15-14.03.15:130][  0]LogStreaming: Display: Took  0.279s to InitEngineTextLocalization.
+[2019.04.15-14.03.15:130][  0]LogInit: Setting process to per monitor DPI aware
+[2019.04.15-14.03.15:154][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.04.15-14.03.15:154][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.04.15-14.03.15:302][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.15-14.03.15:302][  0]LogD3D11RHI: D3D11 adapters:
+[2019.04.15-14.03.15:361][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2070' (Feature Level 11_0)
+[2019.04.15-14.03.15:361][  0]LogD3D11RHI:       8031/0/16351 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.04.15-14.03.15:362][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.04.15-14.03.15:362][  0]LogD3D11RHI:       0/0/16351 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.04.15-14.03.15:362][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.04.15-14.03.15:367][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.04.15-14.03.15:367][  0]LogD3D11RHI:     GPU DeviceId: 0x1f02 (for the marketing name, search the web for "GPU Device Id")
+[2019.04.15-14.03.15:367][  0]LogWindows: EnumDisplayDevices:
+[2019.04.15-14.03.15:367][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2070' (P:1 D:1)
+[2019.04.15-14.03.15:367][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2070' (P:0 D:1)
+[2019.04.15-14.03.15:367][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
+[2019.04.15-14.03.15:367][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
+[2019.04.15-14.03.15:368][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.04.15-14.03.15:368][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2070
+[2019.04.15-14.03.15:368][  0]LogD3D11RHI:   Driver Version: 417.35 (internal:25.21.14.1735, unified:417.35)
+[2019.04.15-14.03.15:368][  0]LogD3D11RHI:      Driver Date: 12-11-2018
+[2019.04.15-14.03.15:368][  0]LogRHI: Texture pool is 5621 MB (70% of 8031 MB)
+[2019.04.15-14.03.15:400][  0]LogD3D11RHI: Async texture creation enabled
+[2019.04.15-14.03.15:416][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.04.15-14.03.15:520][  0]LogShaderCompilers: Guid format shader working directory is -39 characters bigger than the processId version (../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Intermediate/Shaders/WorkingDirectory/13664/).
+[2019.04.15-14.03.15:520][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jonathan/AppData/Local/Temp/UnrealShaderWorkingDir/8724C0EE4FF22F98C1F54EA73BD87F2E/'.
+[2019.04.15-14.03.15:741][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.04.15-14.03.15:750][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.04.15-14.03.15:759][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.04.15-14.03.15:768][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.04.15-14.03.15:777][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.04.15-14.03.15:786][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.04.15-14.03.15:796][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.04.15-14.03.15:805][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.04.15-14.03.15:809][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.04.15-14.03.15:867][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.15-14.03.15:867][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.15-14.03.15:867][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.15-14.03.15:867][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.15-14.03.15:867][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.15-14.03.15:867][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.15-14.03.15:867][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.15-14.03.15:867][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.15-14.03.15:867][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.15-14.03.15:867][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.15-14.03.15:867][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.15-14.03.15:867][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.15-14.03.15:867][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.15-14.03.15:867][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.15-14.03.15:867][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.15-14.03.15:867][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.15-14.03.15:867][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.15-14.03.15:867][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.15-14.03.15:868][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.04.15-14.03.15:920][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.15-14.03.15:920][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.15-14.03.15:962][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.15-14.03.15:962][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.15-14.03.15:972][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.04.15-14.03.15:981][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.04.15-14.03.15:990][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.04.15-14.03.15:999][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.04.15-14.03.16:005][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.04.15-14.03.16:005][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.04.15-14.03.16:036][  0]LogXGEController: Cleaning working directory: C:/Users/Jonathan/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.04.15-14.03.16:036][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.04.15-14.03.16:036][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.04.15-14.03.16:036][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.04.15-14.03.16:588][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.04.15-14.03.16:630][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/Jonathan/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.04.15-14.03.16:631][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Jonathan/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.04.15-14.03.16:631][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.04.15-14.03.16:631][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.04.15-14.03.16:631][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.15-14.03.16:631][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.04.15-14.03.16:643][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.04.15-14.03.16:655][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jonathan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.04.15-14.03.16:655][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.04.15-14.03.16:655][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.04.15-14.03.16:669][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.04.15-14.03.16:670][  0]LogSlate: Using FreeType 2.6.0
+[2019.04.15-14.03.16:670][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.15-14.03.16:727][  0]LogAssetRegistry: FAssetRegistry took 0.0249 seconds to start up
+[2019.04.15-14.03.16:950][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.15-14.03.17:044][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.04.15-14.03.17:046][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.04.15-14.03.17:046][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.04.15-14.03.17:046][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.04.15-14.03.17:046][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.04.15-14.03.17:058][  0]LogNetVersion: JD_WB_InClass_Sec2 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1460274434)
+[2019.04.15-14.03.17:415][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.059133 seconds
+[2019.04.15-14.03.17:419][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.04.15-14.03.17:419][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.04.15-14.03.17:419][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.04.15-14.03.18:009][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.04.15-14.03.18:025][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.04.15-14.03.18:182][  0]SourceControl: Source control is disabled
+[2019.04.15-14.03.18:182][  0]SourceControl: Source control is disabled
+[2019.04.15-14.03.18:183][  0]SourceControl: Source control is disabled
+[2019.04.15-14.03.18:183][  0]SourceControl: Source control is disabled
+[2019.04.15-14.03.18:333][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.04.15-14.03.18:388][  0]LogOcInput: OculusInput pre-init called
+[2019.04.15-14.03.18:432][  0]LogEngine: Initializing Engine...
+[2019.04.15-14.03.18:432][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.15-14.03.18:433][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.15-14.03.18:433][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.15-14.03.18:433][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.15-14.03.18:433][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.15-14.03.18:590][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.04.15-14.03.18:598][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.04.15-14.03.18:612][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.15-14.03.18:623][  0]LogInit: FAudioDevice initialized.
+[2019.04.15-14.03.18:624][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.04.15-14.03.18:658][  0]LogDerivedDataCache: Saved boot cache 0.03s 71MB C:/Users/Jonathan/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.04.15-14.03.18:667][  0]LogInit: Texture streaming: Enabled
+[2019.04.15-14.03.18:677][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.04.15-14.03.18:685][  0]LogInit: Transaction tracking system initialized
+[2019.04.15-14.03.18:695][  0]BlueprintLog: New page: Editor Load
+[2019.04.15-14.03.18:732][  0]LocalizationService: Localization service is disabled
+[2019.04.15-14.03.19:164][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.04.15-14.03.19:164][  0]LogCook: Display: Mobile HDR setting 1
+[2019.04.15-14.03.19:164][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.04.15-14.03.19:164][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.15-14.03.19:164][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.15-14.03.19:164][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.15-14.03.19:164][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.15-14.03.19:235][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/' took 0.01s
+[2019.04.15-14.03.19:235][  0]SourceControl: Source control is disabled
+[2019.04.15-14.03.19:235][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.15-14.03.19:236][  0]LightingResults: New page: Lighting Build
+[2019.04.15-14.03.19:237][  0]MapCheck: New page: Map Check
+[2019.04.15-14.03.19:237][  0]LightingResults: New page: Lighting Build
+[2019.04.15-14.03.19:387][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2019.04.15-14.03.19:391][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.15-14.03.19:411][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.15-14.03.19:445][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 35.048ms to complete.
+[2019.04.15-14.03.19:445][  0]LogFileHelpers: Loading map 'Template_Default' took 0.210
+[2019.04.15-14.03.19:546][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.15-14.03.19:552][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.15-14.03.19:557][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.15-14.03.19:563][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.15-14.03.19:566][  0]LogCollectionManager: Loaded 0 collections in 0.000715 seconds
+[2019.04.15-14.03.19:611][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Collections/' took 0.01s
+[2019.04.15-14.03.19:611][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Developers/Jonathan/Collections/' took 0.01s
+[2019.04.15-14.03.19:611][  0]LogFileCache: Scanning file cache for directory 'D:/Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Collections/' took 0.01s
+[2019.04.15-14.03.19:611][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.04.15-14.03.19:620][  0]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 2572 classes and 603 folders.
+[2019.04.15-14.03.19:624][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.04.15-14.03.19:653][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.04.15-14.03.19:655][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2019.04.15-14.03.19:667][  0]LogSlate: Took 0.000137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.04.15-14.03.19:668][  0]LogSlate: Took 0.000111 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.04.15-14.03.19:671][  0]LogSlate: Took 0.000127 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.04.15-14.03.19:727][  0]LogRenderer: Reallocating scene render targets to support 1184x536 Format 9 NumSamples 1 (Frame:1).
+[2019.04.15-14.03.19:839][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.04.15-14.03.19:839][  0]LogLoad: (Engine Initialization) Total time: 6.48 seconds
+[2019.04.15-14.03.19:839][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.04.15-14.03.19:877][  0]LogAssetRegistry: Asset discovery search completed in 3.1731 seconds
+[2019.04.15-14.03.19:878][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.04.15-14.03.19:878][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000041 seconds (updated 0 objects)
+[2019.04.15-14.03.19:880][  0]LogContentStreaming: Texture pool size now 400 MB
+[2019.04.15-14.03.19:913][  0]LogSlate: Took 0.000163 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.15-14.03.20:887][111]LogSlate: Took 0.000123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.15-14.03.24:859][586]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.15-14.03.24:925][594]LogFileCache: Retrieving MD5 hashes for directory 'D:/Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/' took 5.07s
+[2019.04.15-14.03.27:238][831]LogAIModule: Creating AISystem for world JD_WBMyCityBlock
+[2019.04.15-14.03.27:304][831]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/JD_WBMyCityBlock.JD_WBMyCityBlock
+[2019.04.15-14.03.27:328][831]Cmd: MAP LOAD FILE="../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Levels/JD_WBMyCityBlock.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.15-14.03.27:328][831]LightingResults: New page: Lighting Build
+[2019.04.15-14.03.27:329][831]LoadErrors: New page: Loading map: JD_WBMyCityBlock.umap
+[2019.04.15-14.03.27:329][831]MapCheck: New page: Map Check
+[2019.04.15-14.03.27:329][831]LightingResults: New page: Lighting Build
+[2019.04.15-14.03.27:373][831]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.15-14.03.27:431][831]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.15-14.03.27:468][831]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 36.816ms to complete.
+[2019.04.15-14.03.27:468][831]LogFileHelpers: Loading map 'JD_WBMyCityBlock' took 0.140
+[2019.04.15-14.03.34:202][623]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.15-14.04.13:760][858]LogActorFactory: Actor Factory created JDao_Motorcycle
+[2019.04.15-14.04.14:671][951]LogActorFactory: Actor Factory created JDao_Motorcycle
+[2019.04.15-14.04.23:483][864]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.15-14.04.44:496][350]Cmd: TRANSACTION UNDO
+[2019.04.15-14.04.44:496][350]LogEditorTransaction: Undo Scale Actors
+[2019.04.15-14.04.50:494][ 58]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (JDao_Motorcycle)
+[2019.04.15-14.04.50:667][ 58]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.15-14.04.55:984][690]Cmd: ACTOR UNBAKEPREPIVOT
+[2019.04.15-14.04.57:937][907]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (JDao_Motorcycle)
+[2019.04.15-14.05.04:567][700]Cmd: TRANSACTION UNDO
+[2019.04.15-14.05.04:567][700]LogEditorTransaction: Undo Clicking on Actors
+[2019.04.15-14.05.05:042][752]Cmd: TRANSACTION UNDO
+[2019.04.15-14.05.05:042][752]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2019.04.15-14.05.05:444][798]Cmd: TRANSACTION UNDO
+[2019.04.15-14.05.05:444][798]LogEditorTransaction: Undo Rotate Actors
+[2019.04.15-14.07.39:480][879]LogSlate: Took 0.000275 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.04.15-14.07.43:302][334]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.15-14.08.04:163][835]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.15-14.08.21:535][916]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.15-14.08.34:189][431]Cmd: TRANSACTION UNDO
+[2019.04.15-14.08.34:189][431]LogEditorTransaction: Undo Set Scale
+[2019.04.15-14.08.34:365][449]Cmd: TRANSACTION UNDO
+[2019.04.15-14.08.34:365][449]LogEditorTransaction: Undo Set Scale
+[2019.04.15-14.08.34:547][468]Cmd: TRANSACTION UNDO
+[2019.04.15-14.08.34:547][468]LogEditorTransaction: Undo Set Scale
+[2019.04.15-14.08.34:746][489]Cmd: TRANSACTION UNDO
+[2019.04.15-14.08.34:746][489]LogEditorTransaction: Undo Set Scale
+[2019.04.15-14.08.34:955][513]Cmd: TRANSACTION UNDO
+[2019.04.15-14.08.34:955][513]LogEditorTransaction: Undo Set Scale
+[2019.04.15-14.08.40:059][114]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.15-14.09.11:638][656]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.15-14.09.13:993][899]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (JDao_Motorcycle)
+[2019.04.15-14.09.14:014][899]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.15-14.09.17:392][300]Cmd: ACTOR UNBAKEPREPIVOT
+[2019.04.15-14.09.18:405][421]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (JDao_Motorcycle)
+[2019.04.15-14.09.18:426][421]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.15-14.09.21:828][826]Cmd: PIVOT CENTERSELECTION
+[2019.04.15-14.09.25:455][258]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.15-14.12.44:260][413]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.15-14.13.05:347][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Back_Lights0B6B7BB5412D571FB3B2EF89146B6E5E.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Back_Lights.uasset'
+[2019.04.15-14.13.05:367][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Dash5C8C2D5A4218722CABB7498BC3B4E9F7.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Dash.uasset'
+[2019.04.15-14.13.05:389][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Front_Panel_Hood8F584C714F0F3E041F1AE4BA4FE9FFF9.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Front_Panel_Hood.uasset'
+[2019.04.15-14.13.05:408][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Front_Side_Panels0528C4904A78AD6CCB78E1B595FA3D3A.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Front_Side_Panels.uasset'
+[2019.04.15-14.13.05:433][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Front_Wheel0B5EE04E4531F92B8B726B8351E2CDF9.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Front_Wheel.uasset'
+[2019.04.15-14.13.05:455][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Handle_Bar_To_GearD5DED3AE4EF2CF75740FAA846272A8D5.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Handle_Bar_To_Gear.uasset'
+[2019.04.15-14.13.05:477][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Inner_Wheel_Gear_SpinnerF035ABEE46A4586BE62E43A6147A86A8.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Inner_Wheel_Gear_Spinner.uasset'
+[2019.04.15-14.13.05:498][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Interfact_Speedometer71C358B149A593ECD960AFB00A7C81D9.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Interfact_Speedometer.uasset'
+[2019.04.15-14.13.05:519][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Key_Ignition347C58204D94740952A6758AE7AB6879.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Key_Ignition.uasset'
+[2019.04.15-14.13.05:539][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Main_Body4BDFC1C4414AADBAF5E575A98F8E971C.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Main_Body.uasset'
+[2019.04.15-14.13.05:560][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Rear_Wheel2711BE2C4F1A531F8EA4E7A5FBEB6A77.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Rear_Wheel.uasset'
+[2019.04.15-14.13.05:590][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Side_Accessory_Big01A80DE348D51ABB9CE06293C30B1791.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Side_Accessory_Big.uasset'
+[2019.04.15-14.13.05:611][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Side_Accessory_Screw8355D1DD43DBB8A103B756B4AC9AA146.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Side_Accessory_Screw.uasset'
+[2019.04.15-14.13.05:629][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Side_Accessory_Small2CE55E73459872483A621E96C9038E81.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Side_Accessory_Small.uasset'
+[2019.04.15-14.13.05:649][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Speedomter_Cube_BottomD8147C17466979DA3175A685FF7EF4BD.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Speedomter_Cube_Bottom.uasset'
+[2019.04.15-14.13.05:668][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/TabletE197FEB44C29DFFF4CCEBB8F3FE639FE.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Tablet.uasset'
+[2019.04.15-14.13.05:690][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Wheel_Accessory_Outer_ShellDE98424C469FCE0659F6CC8A4FA4EFA9.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Wheel_Accessory_Outer_Shell.uasset'
+[2019.04.15-14.13.05:712][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Wheel_Accessory_Outer_Shell_SideE014C3324F1BC737089616AF86221E1F.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Wheel_Accessory_Outer_Shell_Side_Cylinder_Big.uasset'
+[2019.04.15-14.13.05:733][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Wheel_Accessory_Outer_Shell_SideB404FFCE48827B5890D0C196AADD48A6.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Wheel_Accessory_Outer_Shell_Side_Cylinder_Big_Design.uasset'
+[2019.04.15-14.13.05:767][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Wheel_Accessory_Outer_Shell_SideD93E3B1249217235C0514EA09E75EFBF.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Wheel_Accessory_Outer_Shell_Side_Cylinder_Medium.uasset'
+[2019.04.15-14.13.05:787][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Wheel_Accessory_Outer_Shell_Side07796CA245004A05E1EEA991431A8F1F.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Wheel_Accessory_Outer_Shell_Side_Cylinder_Screw.uasset'
+[2019.04.15-14.13.05:805][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Wheel_Accessory_Outer_Shell_Side14544FAA4C9E6C4A8365EE8706D49F4A.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Wheel_Accessory_Outer_Shell_Side_Cylinder_Small.uasset'
+[2019.04.15-14.13.05:827][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Wheel_Accessory_Support_1_Big7B3C8D934BDDF4B2F6D9D9BA432D07D3.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Wheel_Accessory_Support_1_Big.uasset'
+[2019.04.15-14.13.05:849][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Wheel_Accessory_Support_2_Mid30F1FE4E4FEB0288D7F3B2AD73525733.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Wheel_Accessory_Support_2_Mid.uasset'
+[2019.04.15-14.13.05:873][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Wheel_Accessory_Support_3_SmallCF3903D641DB62DDFF89D8B31EBE07FE.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Wheel_Accessory_Support_3_Small.uasset'
+[2019.04.15-14.13.05:892][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/WindshieldFC4C524A4CCC4E99E33384A8A323E2E1.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Windshield.uasset'
+[2019.04.15-14.13.05:915][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Gear_Elongated_Center394BCC03459F634A347CEEA6595F9376.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Gears/Gear_Elongated_Center.uasset'
+[2019.04.15-14.13.05:933][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Gear_Elongated_Center_Top_2_574BCDDE4EEBF4F35E07D3925D8DC08A.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Gears/Gear_Elongated_Center_Top_2_.uasset'
+[2019.04.15-14.13.05:946][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Gear_Blocks_1007ED0804732276B1F1DF9BED6B28742.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Gears/Left/Gear_Blocks_1.uasset'
+[2019.04.15-14.13.05:961][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Gear_Blocks_2_Center0E34FA2E46446E5145BCE0A149B378B5.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Gears/Left/Gear_Blocks_2_Center.uasset'
+[2019.04.15-14.13.05:979][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Gear_Cog_LeftBB109BC54B605B2E33333B8E5F2AA5B0.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Gears/Left/Gear_Cog_Left.uasset'
+[2019.04.15-14.13.06:000][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Gear_Most_Outer_Left_Cylinder8E7F50214B8E2142B4EC058E88E8F749.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Gears/Left/Gear_Most_Outer_Left_Cylinder.uasset'
+[2019.04.15-14.13.06:019][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Gear_Most_Outer_Left_Cylinder_SmBF7EDA9A40BB614E979F8589D5146CB9.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Gears/Left/Gear_Most_Outer_Left_Cylinder_Small.uasset'
+[2019.04.15-14.13.06:036][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Gear_Small_Screws_TopDD7F0D3B463F02833D641F98C36DD2AD.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Gears/Left/Gear_Small_Screws_Top.uasset'
+[2019.04.15-14.13.06:055][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Gear_Suction_LeftD7663C5445064E4E217291994E3216BF.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Gears/Left/Gear_Suction_Left.uasset'
+[2019.04.15-14.13.06:080][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Gear_Two_CirclesC24AF40E4EAD94F5F2E52EA89F4D39A3.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Gears/Left/Gear_Two_Circles.uasset'
+[2019.04.15-14.13.06:097][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Gear_Cog_RightEF8C1F7741524C3621C815A8253E20A9.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Gears/Right/Gear_Cog_Right.uasset'
+[2019.04.15-14.13.06:117][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Gear_Most_Outer_Right_Cylinder05675E544D991424A347D5BB1FE7E440.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Gears/Right/Gear_Most_Outer_Right_Cylinder.uasset'
+[2019.04.15-14.13.06:136][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Gear_Most_Outer_Right_Cylinder_S4A00DF094FC188358C65AEA51636E89B.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Gears/Right/Gear_Most_Outer_Right_Cylinder_Small.uasset'
+[2019.04.15-14.13.06:155][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Gear_Suction_RightD54827BC49660A43E3B56CA156952662.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Gears/Right/Gear_Suction_Right.uasset'
+[2019.04.15-14.13.06:232][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Gear_Two_CirclesE8AC02B74E11F7F7FE2C9A8538220135.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Gears/Right/Gear_Two_Circles.uasset'
+[2019.04.15-14.13.06:248][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Small_Screws5AC9F65B4E411719D2D63097C1F26E2B.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Gears/Right/Small_Screws.uasset'
+[2019.04.15-14.13.06:270][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Handle_Bar_Grip_BottomBBD96C1B407C7F125C903C8D9E3D7E62.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Handle_Bar/Handle_Bar_Grip_Bottom.uasset'
+[2019.04.15-14.13.06:291][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Handle_Bar_Grip_Bottom_BottomBC349B19430135079C6E338BA8394B6B.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Handle_Bar/Handle_Bar_Grip_Bottom_Bottom.uasset'
+[2019.04.15-14.13.06:309][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Handle_Bar_Grip_Main36C9BCB84BC456067539BFBCE9B49FF5.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Handle_Bar/Handle_Bar_Grip_Main.uasset'
+[2019.04.15-14.13.06:329][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Handle_Bar_Grip_Tip194F2F384CC348D8F1B392AA7902FEC4.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Handle_Bar/Handle_Bar_Grip_Tip.uasset'
+[2019.04.15-14.13.06:349][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Handle_Bar_Grip_Tip_Mid9BD95E544AA3912C2E1C808B809A9DE5.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Handle_Bar/Handle_Bar_Grip_Tip_Mid.uasset'
+[2019.04.15-14.13.06:378][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Handle_Bar_PipeAFEB925D4DC096AE0566E8A1EE2039A3.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Handle_Bar/Handle_Bar_Pipe.uasset'
+[2019.04.15-14.13.06:397][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Steering24E1147B458EA43B5219D5A51F86CF46.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Handle_Bar/Steering.uasset'
+[2019.04.15-14.13.06:415][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Steering_Center7DC1ABAD4D34A56BA7897FB6C2A24FDC.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Handle_Bar/Steering_Center.uasset'
+[2019.04.15-14.13.06:433][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Steering_Left_Design_10AFB799F404534EF54242D9EAFFD185B.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Handle_Bar/Steering_Left_Design_1.uasset'
+[2019.04.15-14.13.06:451][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Steering_Left_Design_1_TopA83BE0894D5BE606FAEE578F93B20641.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Handle_Bar/Steering_Left_Design_1_Top.uasset'
+[2019.04.15-14.13.06:473][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Steering_Right_Design_1_BottomCDB6961D49CFD3C56BC2F39EF21FDB8F.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Handle_Bar/Steering_Right_Design_1_Bottom.uasset'
+[2019.04.15-14.13.06:504][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Steering_Right_Design_1_Top64ECC5ED4F0605200F343F9DEC9525B9.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Handle_Bar/Steering_Right_Design_1_Top.uasset'
+[2019.04.15-14.13.06:520][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Grip_13F1D1B5D40631B1A717DF5972128D683.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Pedal/Grip_1.uasset'
+[2019.04.15-14.13.06:538][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Grip_10C864B29D449E46AE09632EA055C35BD9.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Pedal/Grip_10.uasset'
+[2019.04.15-14.13.06:553][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Grip_11F5ADEA744C161C5894FEAAB11B165409.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Pedal/Grip_11.uasset'
+[2019.04.15-14.13.06:567][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Grip_123587F44641FC0C2B3E3E8485445F5FB7.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Pedal/Grip_12.uasset'
+[2019.04.15-14.13.06:582][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Grip_13118C2D7D41A7E29BCA5283BDB27D90AF.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Pedal/Grip_13.uasset'
+[2019.04.15-14.13.06:598][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Grip_14210B01894E90B96068D1C38FA77AA8C3.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Pedal/Grip_14.uasset'
+[2019.04.15-14.13.06:615][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Grip_1537367D1D44957960F7F8F7A51A15AA45.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Pedal/Grip_15.uasset'
+[2019.04.15-14.13.06:632][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Grip_1649F997154DC08F2DC219208485DC78A8.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Pedal/Grip_16.uasset'
+[2019.04.15-14.13.06:649][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Grip_17D296204D433D143F64CE22ACB4F94F2F.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Pedal/Grip_17.uasset'
+[2019.04.15-14.13.06:666][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Grip_186844A15143D8E0D8165EAE8DCB761CD7.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Pedal/Grip_18.uasset'
+[2019.04.15-14.13.06:683][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Grip_1962616D0E426DA3F716870FA2C7BD618A.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Pedal/Grip_19.uasset'
+[2019.04.15-14.13.06:699][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Grip_295C0F15F45365471EF0777B459BE240D.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Pedal/Grip_2.uasset'
+[2019.04.15-14.13.06:713][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Grip_20C2153CE7484253BAAA78ED83570BCE0C.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Pedal/Grip_20.uasset'
+[2019.04.15-14.13.06:727][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Grip_21058D9F864C6E2069BD36DFA10746D53B.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Pedal/Grip_21.uasset'
+[2019.04.15-14.13.06:742][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Grip_222EF2E886450E2539A6A1AB929A446EC0.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Pedal/Grip_22.uasset'
+[2019.04.15-14.13.06:759][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Grip_23F750BCA0401692B19FF8369552FA6812.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Pedal/Grip_23.uasset'
+[2019.04.15-14.13.06:775][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Grip_249431F6E741B62592D7346B80BDCEB61B.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Pedal/Grip_24.uasset'
+[2019.04.15-14.13.06:789][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Grip_25048AF24049120A18311D5EB10F1292D4.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Pedal/Grip_25.uasset'
+[2019.04.15-14.13.06:803][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Grip_26CCFFB70247099DA9DA0448BAD265A248.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Pedal/Grip_26.uasset'
+[2019.04.15-14.13.06:819][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Grip_30DBF19854929920859C26090AEB689BD.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Pedal/Grip_3.uasset'
+[2019.04.15-14.13.06:833][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Grip_4BB247E5B43CE93EF4E695E92560FB78D.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Pedal/Grip_4.uasset'
+[2019.04.15-14.13.06:848][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Grip_5D7D2333C457240CB99B78183A82F849A.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Pedal/Grip_5.uasset'
+[2019.04.15-14.13.06:864][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Grip_60CEF6EB247A99FDF1893039829136FEF.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Pedal/Grip_6.uasset'
+[2019.04.15-14.13.06:878][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Grip_74B436870445C1B739ECFA1BD67FDF4F7.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Pedal/Grip_7.uasset'
+[2019.04.15-14.13.06:894][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Grip_8D6E8FA424C2FE75FFAB3368E85AEF9B8.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Pedal/Grip_8.uasset'
+[2019.04.15-14.13.06:924][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Grip_9DCF38BF84BA1E737BA616C982EC85044.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Pedal/Grip_9.uasset'
+[2019.04.15-14.13.06:942][548]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Pedal9B6C4E6946659104AD4590B1606999E3.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Uvs_Snapshots/Pedal/Pedal.uasset'
+[2019.04.15-14.13.47:912][134]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/JD_WBMyCityBlock_Auto1399E91F341BDEFF5C8C442B035CDF46C.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Autosaves/Game/Levels/JD_WBMyCityBlock_Auto1.umap'
+[2019.04.15-14.13.47:927][134]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/JD_WBMyCityBlock' took 1.761
+[2019.04.15-14.13.47:927][134]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.761
+[2019.04.15-14.18.41:092][560]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.15-14.18.56:395][127]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../U OF U/Spring 2019/EAE 3010 Asset Pipeline/H11 Out of Class Wooden Vehicle B/JDao_Motorcycle_Smoothed.fbx)
+[2019.04.15-14.18.56:469][127]LogFbx: Loading FBX Scene from ../../../../../../U OF U/Spring 2019/EAE 3010 Asset Pipeline/H11 Out of Class Wooden Vehicle B/JDao_Motorcycle_Smoothed.fbx
+[2019.04.15-14.18.56:883][127]LogFbx: FBX Scene Loaded Succesfully
+[2019.04.15-14.19.02:908][127]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.04.15-14.19.03:052][127]LogLinker: Can't find file '/Game/Wooden_Vehicle/Smoothed_Version/Seamless_002_56'
+[2019.04.15-14.19.03:053][127]LogLinker: Can't find file '/Game/Wooden_Vehicle/Smoothed_Version/Seamless_002_56'
+[2019.04.15-14.19.03:107][127]LogTexture: Display: Building textures: Seamless_002_56 (AutoDXT, 2048X2048)
+[2019.04.15-14.19.03:507][127]LogMaterial: Display: Missing cached shader map for material Wood, compiling. 
+[2019.04.15-14.19.03:555][127]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.04.15-14.19.03:555][127]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.04.15-14.19.03:555][127]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.04.15-14.19.03:555][127]LogFbx: Warning: Triangulating static mesh Motorcycle1
+[2019.04.15-14.19.53:257][127]LogStaticMesh: Building static mesh JDao_Motorcycle_Smoothed...
+[2019.04.15-14.22.33:927][127]LogStaticMesh: Built static mesh [160.67s] /Game/Wooden_Vehicle/Smoothed_Version/JDao_Motorcycle_Smoothed.JDao_Motorcycle_Smoothed
+[2019.04.15-14.22.34:203][127]LogStaticMesh: Warning: JDao_Motorcycle_Smoothed has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2019.04.15-14.22.34:203][127]LogStaticMesh: Warning: JDao_Motorcycle_Smoothed has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.04.15-14.22.34:461][127]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.04.15-14.22.34:461][127]FBXImport: Warning: JDao_Motorcycle_Smoothed has some nearly zero tangents which can create some issues. (Tolerance of 1E-4) 
+[2019.04.15-14.22.34:461][127]FBXImport: Warning: JDao_Motorcycle_Smoothed has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2019.04.15-14.22.38:483][139]LogSlate: Window 'Message Log' being destroyed
+[2019.04.15-14.22.38:485][139]LogSlate: Window 'Message Log' being destroyed
+[2019.04.15-14.22.41:440][474]LogActorFactory: Actor Factory created JDao_Motorcycle_Smoothed
+[2019.04.15-14.22.42:308][563]LogActorFactory: Actor Factory created JDao_Motorcycle_Smoothed
+[2019.04.15-14.22.45:677][953]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.15-14.22.48:862][320]Cmd: TRANSACTION UNDO
+[2019.04.15-14.22.48:862][320]LogEditorTransaction: Undo Scale Actors
+[2019.04.15-14.22.50:780][545]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.15-14.23.08:496][652]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.15-14.23.29:332][104]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (JDao_Motorcycle_Smoothed)
+[2019.04.15-14.23.40:823][446]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.15-14.24.01:808][953]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (JDao_Motorcycle)
+[2019.04.15-14.24.03:449][146]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.15-14.24.18:280][913]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.15-14.24.33:389][711]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (JDao_Motorcycle_Smoothed)
+[2019.04.15-14.24.44:149][979]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (JDao_Motorcycle_Smoothed)
+[2019.04.15-14.24.45:798][175]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.15-14.24.45:989][197]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Wooden_Vehicle/Smoothed_Version/JDao_Motorcycle_Smoothed.JDao_Motorcycle_Smoothed
+[2019.04.15-14.24.46:332][198]LogRenderer: Reallocating scene render targets to support 1184x548 Format 9 NumSamples 1 (Frame:1).
+[2019.04.15-14.24.50:768][613]LogRenderer: Reallocating scene render targets to support 1432x924 Format 9 NumSamples 1 (Frame:414).
+[2019.04.15-14.25.12:491][ 82]LogTexture: Display: Building textures: Seamless_002_56 (AutoDXT, 2048X2048)
+[2019.04.15-14.25.12:491][ 82]LogTexture: Display: Building textures: SeamlessNormalMap_002_5 (BC5, 2048X2048)
+[2019.04.15-14.25.20:887][932]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/JDao_Motorcycle_Smoothed616B36984810FB7159E0369BDBB8CF0A.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Smoothed_Version/JDao_Motorcycle_Smoothed.uasset'
+[2019.04.15-14.25.41:233][372]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.15-14.25.47:970][978]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/JD_WBMyCityBlockA1B56C28438B524009889D9D5C7E70FB.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Levels/JD_WBMyCityBlock.umap'
+[2019.04.15-14.25.48:012][978]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/JD_WBMyCityBlock_BuiltDataD5A3C2724C17ECCB10FFEB8A421B2CC0.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Levels/JD_WBMyCityBlock_BuiltData.uasset'
+[2019.04.15-14.26.04:466][944]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.15-14.26.06:033][953]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/JD_WBMyCityBlock0FC373714916FF8616E4A6AAF67D1429.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Levels/JD_WBMyCityBlock.umap'
+[2019.04.15-14.26.06:085][953]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/JD_WBMyCityBlock_BuiltData65CA56014F23AD22674E5BB1667B705A.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Levels/JD_WBMyCityBlock_BuiltData.uasset'
+[2019.04.15-14.26.08:714][104]LogSlate: Window 'Save Content' being destroyed
+[2019.04.15-14.26.09:026][104]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Seamless_002_563B9A3E0F48D84C3AE31CBEA3E83D6F26.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Smoothed_Version/Seamless_002_56.uasset'
+[2019.04.15-14.26.09:049][104]LogSavePackage: Moving '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Saved/Wood79A5931A48E56386450FF29C8F9041AA.tmp' to '../../../../../../Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/Wooden_Vehicle/Smoothed_Version/Wood.uasset'
+[2019.04.15-14.26.09:123][104]LogSlate: Window 'JDao_Motorcycle_Smoothed' being destroyed
+[2019.04.15-14.26.09:193][104]LogSlate: Window 'JD_WB_InClass_Sec2 - Unreal Editor' being destroyed
+[2019.04.15-14.26.09:194][104]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.04.15-14.26.09:350][105]Cmd: QUIT_EDITOR
+[2019.04.15-14.26.09:374][105]LogExit: Preparing to exit.
+[2019.04.15-14.26.09:769][105]LogDirectoryWatcher: A directory notification failed for 'D:/Users/Jonathan/Documents/GitHub/JDAO_AssetPipeline/JD_WB_InClass_Sec2/Content/', and we were unable to create a new request.
+[2019.04.15-14.26.09:830][105]LogExit: Editor shut down
+[2019.04.15-14.26.09:830][105]LogExit: Transaction tracking system shut down
+[2019.04.15-14.26.10:462][105]LogExit: Object subsystem successfully closed.
+[2019.04.15-14.26.10:482][105]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.04.15-14.26.10:484][105]LogD3D11RHI: Shutdown
+[2019.04.15-14.26.10:484][105]LogD3D11RHI: CleanupD3DDevice
+[2019.04.15-14.26.10:491][105]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.04.15-14.26.10:498][105]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (616)
+[2019.04.15-14.26.10:499][105]LogModuleManager: Shutting down and abandoning module MeshBuilder (614)
+[2019.04.15-14.26.10:499][105]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (612)
+[2019.04.15-14.26.10:499][105]LogModuleManager: Shutting down and abandoning module SceneOutliner (610)
+[2019.04.15-14.26.10:499][105]LogModuleManager: Shutting down and abandoning module AddContentDialog (608)
+[2019.04.15-14.26.10:499][105]LogModuleManager: Shutting down and abandoning module WidgetCarousel (607)
+[2019.04.15-14.26.10:499][105]LogModuleManager: Shutting down and abandoning module EditorWidgets (604)
+[2019.04.15-14.26.10:499][105]LogModuleManager: Shutting down and abandoning module CollectionManager (602)
+[2019.04.15-14.26.10:499][105]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (600)
+[2019.04.15-14.26.10:499][105]LogModuleManager: Shutting down and abandoning module StatsViewer (598)
+[2019.04.15-14.26.10:499][105]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
+[2019.04.15-14.26.10:499][105]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
+[2019.04.15-14.26.10:499][105]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
+[2019.04.15-14.26.10:499][105]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
+[2019.04.15-14.26.10:499][105]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
+[2019.04.15-14.26.10:499][105]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
+[2019.04.15-14.26.10:499][105]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
+[2019.04.15-14.26.10:499][105]LogModuleManager: Shutting down and abandoning module BspMode (582)
+[2019.04.15-14.26.10:499][105]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
+[2019.04.15-14.26.10:499][105]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
+[2019.04.15-14.26.10:499][105]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
+[2019.04.15-14.26.10:499][105]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
+[2019.04.15-14.26.10:499][105]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
+[2019.04.15-14.26.10:499][105]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
+[2019.04.15-14.26.10:499][105]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
+[2019.04.15-14.26.10:499][105]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
+[2019.04.15-14.26.10:499][105]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
+[2019.04.15-14.26.10:499][105]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
+[2019.04.15-14.26.10:499][105]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
+[2019.04.15-14.26.10:499][105]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
+[2019.04.15-14.26.10:499][105]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
+[2019.04.15-14.26.10:499][105]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
+[2019.04.15-14.26.10:500][105]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
+[2019.04.15-14.26.10:500][105]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
+[2019.04.15-14.26.10:500][105]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
+[2019.04.15-14.26.10:500][105]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
+[2019.04.15-14.26.10:500][105]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
+[2019.04.15-14.26.10:500][105]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
+[2019.04.15-14.26.10:500][105]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
+[2019.04.15-14.26.10:500][105]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
+[2019.04.15-14.26.10:500][105]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
+[2019.04.15-14.26.10:500][105]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
+[2019.04.15-14.26.10:500][105]LogModuleManager: Shutting down and abandoning module SessionServices (532)
+[2019.04.15-14.26.10:500][105]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
+[2019.04.15-14.26.10:500][105]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
+[2019.04.15-14.26.10:500][105]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
+[2019.04.15-14.26.10:500][105]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
+[2019.04.15-14.26.10:500][105]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
+[2019.04.15-14.26.10:500][105]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
+[2019.04.15-14.26.10:500][105]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
+[2019.04.15-14.26.10:500][105]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
+[2019.04.15-14.26.10:500][105]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
+[2019.04.15-14.26.10:500][105]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
+[2019.04.15-14.26.10:500][105]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
+[2019.04.15-14.26.10:500][105]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
+[2019.04.15-14.26.10:546][105]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
+[2019.04.15-14.26.10:546][105]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
+[2019.04.15-14.26.10:546][105]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
+[2019.04.15-14.26.10:546][105]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
+[2019.04.15-14.26.10:546][105]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
+[2019.04.15-14.26.10:546][105]LogModuleManager: Shutting down and abandoning module MergeActors (496)
+[2019.04.15-14.26.10:546][105]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
+[2019.04.15-14.26.10:546][105]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
+[2019.04.15-14.26.10:546][105]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
+[2019.04.15-14.26.10:546][105]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
+[2019.04.15-14.26.10:546][105]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
+[2019.04.15-14.26.10:546][105]LogModuleManager: Shutting down and abandoning module XmlParser (484)
+[2019.04.15-14.26.10:546][105]LogModuleManager: Shutting down and abandoning module Blutility (482)
+[2019.04.15-14.26.10:546][105]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
+[2019.04.15-14.26.10:546][105]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
+[2019.04.15-14.26.10:546][105]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
+[2019.04.15-14.26.10:546][105]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
+[2019.04.15-14.26.10:546][105]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
+[2019.04.15-14.26.10:547][105]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
+[2019.04.15-14.26.10:547][105]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
+[2019.04.15-14.26.10:547][105]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
+[2019.04.15-14.26.10:547][105]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
+[2019.04.15-14.26.10:599][105]LogModuleManager: Shutting down and abandoning module AutomationController (462)
+[2019.04.15-14.26.10:599][105]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
+[2019.04.15-14.26.10:599][105]LogModuleManager: Shutting down and abandoning module Layers (458)
+[2019.04.15-14.26.10:599][105]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
+[2019.04.15-14.26.10:599][105]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
+[2019.04.15-14.26.10:599][105]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
+[2019.04.15-14.26.10:599][105]LogModuleManager: Shutting down and abandoning module Persona (450)
+[2019.04.15-14.26.10:599][105]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
+[2019.04.15-14.26.10:599][105]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
+[2019.04.15-14.26.10:599][105]LogModuleManager: Shutting down and abandoning module Kismet (444)
+[2019.04.15-14.26.10:599][105]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
+[2019.04.15-14.26.10:599][105]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
+[2019.04.15-14.26.10:599][105]LogModuleManager: Shutting down and abandoning module Toolbox (438)
+[2019.04.15-14.26.10:599][105]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2019.04.15-14.26.10:599][105]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2019.04.15-14.26.10:599][105]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2019.04.15-14.26.10:599][105]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2019.04.15-14.26.10:599][105]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2019.04.15-14.26.10:599][105]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2019.04.15-14.26.10:599][105]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2019.04.15-14.26.10:599][105]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2019.04.15-14.26.10:599][105]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2019.04.15-14.26.10:599][105]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2019.04.15-14.26.10:599][105]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2019.04.15-14.26.10:599][105]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2019.04.15-14.26.10:599][105]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2019.04.15-14.26.10:599][105]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2019.04.15-14.26.10:599][105]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2019.04.15-14.26.10:600][105]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2019.04.15-14.26.10:600][105]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2019.04.15-14.26.10:600][105]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
+[2019.04.15-14.26.10:600][105]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
+[2019.04.15-14.26.10:699][105]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
+[2019.04.15-14.26.10:699][105]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
+[2019.04.15-14.26.10:699][105]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
+[2019.04.15-14.26.10:699][105]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
+[2019.04.15-14.26.10:699][105]LogModuleManager: Shutting down and abandoning module OculusInput (390)
+[2019.04.15-14.26.10:699][105]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
+[2019.04.15-14.26.10:699][105]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
+[2019.04.15-14.26.10:699][105]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
+[2019.04.15-14.26.10:699][105]LogModuleManager: Shutting down and abandoning module CableComponent (382)
+[2019.04.15-14.26.10:700][105]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
+[2019.04.15-14.26.10:700][105]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
+[2019.04.15-14.26.10:700][105]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
+[2019.04.15-14.26.10:700][105]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
+[2019.04.15-14.26.10:700][105]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
+[2019.04.15-14.26.10:700][105]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
+[2019.04.15-14.26.10:700][105]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
+[2019.04.15-14.26.10:700][105]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
+[2019.04.15-14.26.10:700][105]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
+[2019.04.15-14.26.10:712][105]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
+[2019.04.15-14.26.10:712][105]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
+[2019.04.15-14.26.10:712][105]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
+[2019.04.15-14.26.10:713][105]LogModuleManager: Shutting down and abandoning module BackChannel (356)
+[2019.04.15-14.26.10:713][105]LogModuleManager: Shutting down and abandoning module AppleVision (354)
+[2019.04.15-14.26.10:713][105]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2019.04.15-14.26.10:713][105]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2019.04.15-14.26.10:713][105]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2019.04.15-14.26.10:713][105]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2019.04.15-14.26.10:713][105]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2019.04.15-14.26.10:713][105]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2019.04.15-14.26.10:713][105]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
+[2019.04.15-14.26.10:714][105]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2019.04.15-14.26.10:714][105]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2019.04.15-14.26.10:715][105]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2019.04.15-14.26.10:715][105]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
+[2019.04.15-14.26.10:715][105]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
+[2019.04.15-14.26.10:715][105]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2019.04.15-14.26.10:715][105]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2019.04.15-14.26.10:715][105]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2019.04.15-14.26.10:715][105]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2019.04.15-14.26.10:715][105]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2019.04.15-14.26.10:715][105]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2019.04.15-14.26.10:715][105]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2019.04.15-14.26.10:716][105]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2019.04.15-14.26.10:716][105]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2019.04.15-14.26.10:716][105]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2019.04.15-14.26.10:716][105]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
+[2019.04.15-14.26.10:716][105]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
+[2019.04.15-14.26.10:716][105]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
+[2019.04.15-14.26.10:716][105]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
+[2019.04.15-14.26.10:716][105]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
+[2019.04.15-14.26.10:716][105]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2019.04.15-14.26.10:717][105]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2019.04.15-14.26.10:717][105]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2019.04.15-14.26.10:717][105]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2019.04.15-14.26.10:717][105]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2019.04.15-14.26.10:717][105]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2019.04.15-14.26.10:717][105]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2019.04.15-14.26.10:717][105]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.04.15-14.26.10:717][105]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.04.15-14.26.10:818][105]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.04.15-14.26.10:918][105]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.04.15-14.26.10:918][105]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.04.15-14.26.10:918][105]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.04.15-14.26.10:918][105]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.04.15-14.26.10:918][105]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.04.15-14.26.10:918][105]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.04.15-14.26.10:918][105]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.04.15-14.26.10:918][105]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.04.15-14.26.10:918][105]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.04.15-14.26.10:918][105]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.04.15-14.26.10:918][105]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.04.15-14.26.10:919][105]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.04.15-14.26.10:919][105]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.04.15-14.26.10:919][105]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.04.15-14.26.10:919][105]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.04.15-14.26.10:919][105]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.04.15-14.26.10:919][105]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.04.15-14.26.10:919][105]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2019.04.15-14.26.10:921][105]LogModuleManager: Shutting down and abandoning module Media (243)
+[2019.04.15-14.26.10:927][105]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2019.04.15-14.26.10:927][105]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2019.04.15-14.26.10:927][105]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2019.04.15-14.26.10:927][105]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2019.04.15-14.26.10:927][105]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2019.04.15-14.26.10:927][105]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2019.04.15-14.26.10:927][105]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2019.04.15-14.26.10:927][105]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2019.04.15-14.26.10:927][105]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2019.04.15-14.26.10:927][105]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2019.04.15-14.26.10:927][105]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2019.04.15-14.26.10:927][105]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2019.04.15-14.26.10:927][105]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2019.04.15-14.26.10:927][105]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2019.04.15-14.26.10:927][105]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2019.04.15-14.26.10:927][105]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2019.04.15-14.26.10:927][105]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2019.04.15-14.26.10:927][105]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2019.04.15-14.26.10:927][105]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2019.04.15-14.26.10:928][105]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2019.04.15-14.26.10:929][105]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2019.04.15-14.26.10:929][105]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2019.04.15-14.26.10:929][105]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2019.04.15-14.26.10:929][105]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2019.04.15-14.26.10:929][105]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2019.04.15-14.26.10:929][105]LogModuleManager: Shutting down and abandoning module Core (188)
+[2019.04.15-14.26.10:929][105]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2019.04.15-14.26.10:929][105]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2019.04.15-14.26.10:929][105]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2019.04.15-14.26.10:929][105]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2019.04.15-14.26.10:929][105]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2019.04.15-14.26.10:929][105]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2019.04.15-14.26.10:929][105]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2019.04.15-14.26.10:929][105]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2019.04.15-14.26.10:929][105]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2019.04.15-14.26.10:929][105]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2019.04.15-14.26.10:929][105]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2019.04.15-14.26.10:932][105]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2019.04.15-14.26.10:939][105]LogDerivedDataCache: Shutdown
+[2019.04.15-14.26.10:939][105]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2019.04.15-14.26.10:939][105]LogXGEController: Cleaning working directory: C:/Users/Jonathan/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.04.15-14.26.10:939][105]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2019.04.15-14.26.10:939][105]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2019.04.15-14.26.10:939][105]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2019.04.15-14.26.10:939][105]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2019.04.15-14.26.10:939][105]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2019.04.15-14.26.10:939][105]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2019.04.15-14.26.10:939][105]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2019.04.15-14.26.10:939][105]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2019.04.15-14.26.10:939][105]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2019.04.15-14.26.10:939][105]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2019.04.15-14.26.10:939][105]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2019.04.15-14.26.10:939][105]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2019.04.15-14.26.10:939][105]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2019.04.15-14.26.10:939][105]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2019.04.15-14.26.10:939][105]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2019.04.15-14.26.10:940][105]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2019.04.15-14.26.10:940][105]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2019.04.15-14.26.10:940][105]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2019.04.15-14.26.10:940][105]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2019.04.15-14.26.10:940][105]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2019.04.15-14.26.10:940][105]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2019.04.15-14.26.10:940][105]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2019.04.15-14.26.10:940][105]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2019.04.15-14.26.10:940][105]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2019.04.15-14.26.10:941][105]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2019.04.15-14.26.10:941][105]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2019.04.15-14.26.10:945][105]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2019.04.15-14.26.10:945][105]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2019.04.15-14.26.10:945][105]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2019.04.15-14.26.10:945][105]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2019.04.15-14.26.10:945][105]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2019.04.15-14.26.10:945][105]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2019.04.15-14.26.10:945][105]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2019.04.15-14.26.10:945][105]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2019.04.15-14.26.10:945][105]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2019.04.15-14.26.10:945][105]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2019.04.15-14.26.10:945][105]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2019.04.15-14.26.10:945][105]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.04.15-14.26.10:945][105]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2019.04.15-14.26.10:945][105]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2019.04.15-14.26.10:945][105]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2019.04.15-14.26.10:945][105]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2019.04.15-14.26.10:945][105]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2019.04.15-14.26.10:945][105]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2019.04.15-14.26.10:946][105]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2019.04.15-14.26.10:946][105]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2019.04.15-14.26.10:975][105]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2019.04.15-14.26.10:975][105]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.04.15-14.26.10:975][105]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B19F3E4F6-499A-FEEB-BB73-42BF27937144%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=f3d380d34d5e346510877594f71ad505%7C46a8c9c7f4bb4f869b8839830ed901e7%7C8c562101-64ab-494e-8c24-936bd739144b&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.04.15-14.26.10:990][105]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2019.04.15-14.26.10:991][105]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2019.04.15-14.26.10:991][105]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2019.04.15-14.26.10:991][105]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2019.04.15-14.26.10:991][105]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2019.04.15-14.26.10:991][105]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2019.04.15-14.26.10:991][105]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2019.04.15-14.26.10:991][105]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2019.04.15-14.26.10:991][105]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2019.04.15-14.26.10:991][105]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2019.04.15-14.26.10:991][105]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.04.15-14.26.10:991][105]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2019.04.15-14.26.10:991][105]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.04.15-14.26.10:992][105]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.04.15-14.26.10:992][105]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.04.15-14.26.10:992][105]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.04.15-14.26.10:992][105]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.04.15-14.26.10:992][105]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.04.15-14.26.10:992][105]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.04.15-14.26.10:992][105]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.04.15-14.26.10:992][105]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.04.15-14.26.10:992][105]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.04.15-14.26.10:992][105]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.04.15-14.26.10:992][105]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.04.15-14.26.10:992][105]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.04.15-14.26.10:992][105]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.04.15-14.26.10:992][105]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.04.15-14.26.10:992][105]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.04.15-14.26.10:992][105]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.04.15-14.26.10:992][105]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.04.15-14.26.11:000][105]LogExit: Exiting.
+[2019.04.15-14.26.11:020][105]Log file closed, 04/15/19 08:26:11
